@@ -18,7 +18,7 @@ async def on_message(message):
     
     username = message.author.name
     userid = message.author.id
-    bot_id = '738758100777173052'
+    bot_id = 'id'
     
     message.content = message.content.lower().replace(' ', '')
     if str(userid) != str(bot_id):
